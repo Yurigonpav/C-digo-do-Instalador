@@ -1,0 +1,16 @@
+{
+  "limite_hosts": 100,
+  "apenas_subrede_local": false,
+  "timer_redescoberta_s": 30,
+  "timeout_arp_s": 1.8,
+  "arp_batch": 32,
+  "arp_tentativas": 2,
+  "arp_inter": 0.02,
+  "arp_pausa": 1.0,
+  "subredes_priorizadas": [],
+  "subredes_excluidas": [],
+  "filtro_oui": [],
+  "hosts_excluidos": [],
+  "hosts_manuais": [],
+  "tema_escuro": true
+}
