@@ -1001,7 +1001,7 @@ class VisualizadorTopologia(QWidget):
         return ip.endswith(".1") or ip.endswith(".254")
 
     def _ip_conta_como_host(self, ip: str) -> bool:
-        return ip != "internet" and ip != self._ip_local and not self._ip_eh_gateway(ip)
+        return ip != "internet" and not self._ip_eh_gateway(ip)
 
     def total_hosts(self) -> int:
         return sum(1 for ip in self.dispositivos if self._ip_conta_como_host(ip))
